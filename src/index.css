@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'IRANsans';
+    src: url('/fonts/IRANSansWeb(FaNum).woff') format('woff'),
+        url('/fonts/IRANSansWeb(FaNum).woff2') format('woff2'),
+        url('/fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'IRANsans', sans-serif;
+}
+input {
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+    padding: 5px;
+    height: 46px;
+    border: rgba(128, 128, 128, 0.401) 1px solid;
+}
